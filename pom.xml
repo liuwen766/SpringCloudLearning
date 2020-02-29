@@ -11,6 +11,8 @@
     <modules>
         <module>eurekaServer</module>
         <module>eurekaClient</module>
+        <module>restTemplate</module>
+        <module>eurekaConsumer</module>
     </modules>
 
     <parent>
