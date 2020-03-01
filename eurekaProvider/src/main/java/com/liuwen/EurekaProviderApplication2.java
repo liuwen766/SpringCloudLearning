@@ -4,13 +4,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @description: 提供两个服务（将端口改为8011）
+ * @description: Good good study,day day up!
  * @author: Liu Wen
- * @create: 2020-02-29 22:50
+ * @create: 2020-03-01 15:29
  **/
 @SpringBootApplication
-public class eurekaClientApplication2 {
+public class EurekaProviderApplication2 {
     public static void main(String[] args){
-        SpringApplication.run(eurekaClientApplication2.class,args);
+        SpringApplication.run(EurekaProviderApplication2.class,args);
     }
 }

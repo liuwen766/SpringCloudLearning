@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @description: Good good study,day day up!
  * @author: Liu Wen
- * @create: 2020-02-29 22:50
+ * @create: 2020-03-01 15:29
  **/
 @SpringBootApplication
-public class eurekaClientApplication {
+public class EurekaProviderApplication {
     public static void main(String[] args){
-        SpringApplication.run(eurekaClientApplication.class,args);
+        SpringApplication.run(EurekaProviderApplication.class,args);
     }
 }

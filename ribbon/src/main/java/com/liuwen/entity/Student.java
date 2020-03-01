@@ -7,12 +7,11 @@ import lombok.NoArgsConstructor;
 /**
  * @description: Good good study,day day up!
  * @author: Liu Wen
- * @create: 2020-03-01 15:29
+ * @create: 2020-03-01 15:12
  **/
-
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Student {
     private long id;
     private String name;

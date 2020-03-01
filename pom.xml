@@ -10,12 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eurekaServer</module>
-        <module>eurekaClient</module>
         <module>restTemplate</module>
         <module>eurekaConsumer</module>
         <module>zuul</module>
         <module>ribbon</module>
         <module>feign</module>
+        <module>eurekaProvider</module>
     </modules>
 
     <parent>

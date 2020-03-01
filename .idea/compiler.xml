@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaClient" />
         <module name="eurekaConsumer" />
+        <module name="eurekaProvider" />
         <module name="eurekaServer" />
         <module name="feign" />
         <module name="restTemplate" />
@@ -15,12 +15,16 @@
         <module name="zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaProvider1" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringClouding" options="-parameters" />
-      <module name="eurekaClient" options="-parameters" />
       <module name="eurekaConsumer" options="-parameters" />
+      <module name="eurekaProvider" options="-parameters" />
+      <module name="eurekaProvider1" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
