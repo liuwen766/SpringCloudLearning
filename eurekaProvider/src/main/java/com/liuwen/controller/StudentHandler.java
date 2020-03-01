@@ -2,6 +2,7 @@ package com.liuwen.controller;
 
 import com.liuwen.entity.Student;
 import com.liuwen.repository.StudentRepository;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -15,6 +16,14 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/student")
 public class StudentHandler {
+
+    @Value("${server.port}")
+    private String port;
+
+    @GetMapping("/index")
+    public String index(){
+        return "当前端口："+this.port;
+    }
 
     @Resource
     private StudentRepository studentRepository;
