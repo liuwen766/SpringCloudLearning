@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="configAcquire" />
+        <module name="configCenter" />
         <module name="eurekaConsumer" />
         <module name="eurekaProvider" />
         <module name="eurekaServer" />
@@ -24,6 +26,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Hystrix" options="-parameters" />
       <module name="SpringClouding" options="-parameters" />
+      <module name="configAcquire" options="-parameters" />
+      <module name="configCenter" options="-parameters" />
       <module name="eurekaConsumer" options="-parameters" />
       <module name="eurekaProvider" options="-parameters" />
       <module name="eurekaProvider1" options="-parameters" />

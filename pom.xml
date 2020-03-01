@@ -17,6 +17,8 @@
         <module>feign</module>
         <module>eurekaProvider</module>
         <module>Hystrix</module>
+        <module>configCenter</module>
+        <module>configAcquire</module>
     </modules>
 
     <parent>
