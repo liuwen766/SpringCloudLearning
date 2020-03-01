@@ -19,6 +19,8 @@
         <module>Hystrix</module>
         <module>configCenter</module>
         <module>configAcquire</module>
+        <module>zipkin</module>
+        <module>zipkinClient</module>
     </modules>
 
     <parent>
