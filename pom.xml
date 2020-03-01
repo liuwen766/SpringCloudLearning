@@ -16,6 +16,7 @@
         <module>ribbon</module>
         <module>feign</module>
         <module>eurekaProvider</module>
+        <module>Hystrix</module>
     </modules>
 
     <parent>
