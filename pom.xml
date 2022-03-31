@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.4.RELEASE</version>
+            <version>2.5.12</version>
         </dependency>
         <!-- 解决 JDK9 以上版本没有 JAXB API jar 的问题，JDK9 以下版本不需要配置 -->
         <dependency>
